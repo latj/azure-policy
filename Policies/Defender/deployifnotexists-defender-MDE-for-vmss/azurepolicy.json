@@ -1,13 +1,10 @@
 {
  "properties": {
-  "displayName": "Deploy MDE on Virtual Machine Scale Set2",
+  "displayName": "Deploy MDE on Virtual Machine Scale Set",
   "policyType": "Custom",
   "mode": "All",
   "metadata": {
-   "createdBy": "e581da9c-187b-4e1d-9c9d-b1dff30bcedf",
-   "createdOn": "2022-08-23T14:20:39.1404795Z",
-   "updatedBy": "e581da9c-187b-4e1d-9c9d-b1dff30bcedf",
-   "updatedOn": "2022-08-26T08:20:12.4223329Z"
+
   },
   "parameters": {
    "listOfImageIdToInclude": {
@@ -57,18 +54,6 @@
          {
           "field": "Microsoft.Compute/imageSKU",
           "in": [
-           "2008-R2-SP1",
-           "2008-R2-SP1-smalldisk",
-           "2012-Datacenter",
-           "2012-Datacenter-smalldisk",
-           "2012-R2-Datacenter",
-           "2012-R2-Datacenter-smalldisk",
-           "2016-Datacenter",
-           "2016-Datacenter-Server-Core",
-           "2016-Datacenter-Server-Core-smalldisk",
-           "2016-Datacenter-smalldisk",
-           "2016-Datacenter-with-Containers",
-           "2016-Datacenter-with-RDSH",
            "2019-Datacenter",
            "2019-Datacenter-Core",
            "2019-Datacenter-Core-smalldisk",
@@ -306,7 +291,7 @@
    }
   }
  },
- "id": "/providers/Microsoft.Management/managementGroups/alz/providers/Microsoft.Authorization/policyDefinitions/76ce1ea0-2923-4d5d-9f4e-86a7c56feca1",
+ "id": "/providers/Microsoft.Management/managementGroups/mg-groupname/providers/Microsoft.Authorization/policyDefinitions/76ce1ea0-2923-4d5d-9f4e-86a7c56feca1",
  "type": "Microsoft.Authorization/policyDefinitions",
  "name": "76ce1ea0-2923-4d5d-9f4e-86a7c56feca1"
 }
